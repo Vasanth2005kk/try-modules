@@ -36,7 +36,7 @@ print(re.sub(" ","@",function_example))
 print(re.sub(" ","@",function_example,2))
 
 #Metacharacters:
-#[] ===> gruop os chracters in the list square bracket example ==> "[a-m]"
+#[] ===> gruop of chracters in the list square bracket example ==> "[a-m]"
 
 text="my name is vasanth"
 variable_stord=re.findall("[m-z]",text)
@@ -46,7 +46,7 @@ print(variable_stord_1)
 
 
 # \ ===> singles a special sequence and this is 10 types
-#thare
+#they are
 
 # \A ==> same as the data is in the list
 
